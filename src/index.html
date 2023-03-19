@@ -1,0 +1,29 @@
+<header>
+  <h1>Metered</h1>
+  <h2>Jake Albaugh</h2>
+</header>
+<main></main>
+<aside>
+  <p>
+    This is a musical composition with five patterns. 
+    Each pattern is made up of two measures in different time signatures.
+    The drum beat changes time signatures to highlight a specific pattern.
+    This beat change occurs when the current pattern and the next pattern are in sync.
+    The current pattern is played in a higher octave.
+    The piece ends after 420 quarter notes, which is the first time that all patterns end a measure simultaneously.
+    At a tempo of 140 bpm, this is precisely 3 minutes.
+  </p>
+  <p>
+    You can see each pattern and its steps.
+    Below it is an indication of which time signature it is in and how many times it has looped.
+    If it is wide, it means the drums are currently playing in that time signature.
+  </p>
+  <p>
+    <button id="toggle"><span class="play">Play</span><span class="stop">Pause</span></button>
+  </p>
+  <p class="center">
+    <input id="tempo" type= "range" step="1" min="80" max="280" />
+    <br>
+    <label for="tempo">Tempo <span id="tempo-value"></span></label>
+  </p>
+</aside>
